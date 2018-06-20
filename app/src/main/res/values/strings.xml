@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">n2soft</string>
+
+    <string name="title_stamp">스템프</string>
+    <string name="title_event">이벤트</string>
+    <string name="title_home">홈</string>
+    <string name="title_favorite">즐겨찾기</string>
+    <string name="title_myMenu">My</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_list_activity">List_activity</string>
+
+
+    <string name="stamp_dialog_title">상품 구매시 5000원마다 도장이 적립 됩니다.</string>
+    <string name="stamp_dialog_date">적립 유효 기간 :</string>
+    <string name="stamp_start_date">2018.03.31</string>
+    <string name="stamp_end_date">2018.08.31</string>
+</resources>
