@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@android:color/holo_purple"
+    android:padding="10dp"
     tools:context=".fragment.StampFragment">
 
     <!-- TODO: Update blank fragment layout -->
@@ -19,14 +19,13 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text=""/>
+                android:text="상품 구매시 5000원마다 도장 1개가 찍힙니다"/>
 
         </RelativeLayout>
         <TableLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             >
-
             <TableRow
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -90,6 +89,11 @@
             </TableRow>
 
         </TableLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="적립유효기간 : 2018.03.31 ~ 2018.10.02"/>
     </LinearLayout>
 
 </FrameLayout>

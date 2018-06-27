@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="250dp"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer"
+    android:layout_gravity="start"
+    android:background="@android:color/holo_purple"
+    tools:context=".SideActivity">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <!--android:layout_below="@+id/toolbarInclude"-->
+
+            <TextView
+                android:id="@+id/txtComment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="여기에 평소 텍스트, 버튼 등을 넣는 곳 입니다."
+                android:textColor="#000000"
+                android:textSize="15sp"/>
+        </RelativeLayout>
+</RelativeLayout>
